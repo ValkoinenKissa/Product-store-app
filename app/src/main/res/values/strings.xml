@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Product-store-app</string>
+    <string name="total_price">Total: %1$s €</string>
+    <string name="purchase_success">Enhorabuena, compra por valor de %1$s€ realizada</string>
+    <string name="cart_cleared">Carrito vaciado</string>
+    <string name="carrito">Carrito</string>
+    <string name="total_0_00">Total: 0.00 €</string>
+    <string name="cart_images">Cart images</string>
+    <string name="plus_carrito">+ Carrito</string>
+    <string name="product_images">Product images</string>
+    <string name="ver_carrito">Ver carrito</string>
+    <string name="confirmar_compra">Confirmar compra</string>
+    <string name="vaciar_carrito">Vaciar carrito</string>
 </resources>
