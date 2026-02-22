@@ -6,22 +6,26 @@
     android:fitsSystemWindows="true">
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
+        android:id="@+id/toolbarSecond"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
-        android:title="Tienda"
+        android:title="@string/carrito"
         android:titleTextColor="@android:color/white" />
 
-    <Spinner
-        android:id="@+id/spinnerCategories"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerCart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/tvTotal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp" />
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerProducts"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="@string/total_0_00" />
 
 </LinearLayout>
